@@ -1,0 +1,35 @@
+#center {
+  align-items: left;
+  justify-content: left;
+  display: flex;
+}
+
+#heading {
+  color: #00004d;
+  font-weight: 500;
+}
+#imagesize {
+  width: 200px;
+  height: 300px;
+}
+
+#movienamediv {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
+}
+
+#ratingdiv {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+#deleteicon {
+  color: red;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+}

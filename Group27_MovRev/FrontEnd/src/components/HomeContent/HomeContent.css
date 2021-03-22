@@ -1,0 +1,57 @@
+/* @import url("https://fonts.googleapis.com/css?family=Ultra"); */
+/* h1 {
+  padding-top: 3rem;
+  text-align: left;
+  color: #343434;
+  margin: 1em 0 0.5em 0;
+  font-family: "Ultra", sans-serif;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+} */
+.container-2 {
+  padding-left: 1.2rem;
+}
+.jumbotron{
+background-image: linear-gradient(to top, #000000, #393939, #727272, #b1b1b1, #f4f4f4);
+color: white;
+}
+  
+@media only screen and (max-width: 1300px) {
+  .display-4 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .lead {
+    font-size: 16px;
+  }
+  body {
+    padding-top: 90px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    padding-top: 70px;
+  }
+  .display-4 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .lead {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 904px) {
+  body {
+    padding-top: 50px;
+  }
+  .display-4 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .lead {
+    font-size: 16px;
+  }
+}
